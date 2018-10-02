@@ -1,0 +1,113 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+
+
+
+
+/*
+int p=0 ,k=100 , s=40;
+cout<<"7";
+cin>> p>>k>>s;
+if (p+s*3>=k) cout<< "przeskoczy";
+ */
+
+
+ /*
+int p=0 ,k=60 , s=20;
+cout<<"7";
+cin>> p>>k>>s;
+if (p+s*3>=k) cout<< "przeskoczy";
+    else cout <<"nieprzeskoczy";
+*/
+
+
+/*
+int p=10 ,k=50 , s=15;
+cout<<"7";
+cin>> p>>k>>s;
+if (p+s*3>=k) cout<< "przeskoczy";
+else cout <<"nieprzeskoczy";
+*/
+
+
+/*
+int p=30 ,k=100 , s=20;
+cout<<"7";
+cin>> p>>k>>s;
+if (p+s*3>=k) cout<< "przeskoczy";
+else cout <<"nieprzeskoczy";
+*/
+
+
+
+/*
+int a,p;
+cout<<"6";
+cin>> a >> p ;
+if ((pow(a,p)-a)/p ) cout << "tak";
+    else cout << "nieprzeskoczy" ;
+*/
+
+/*
+int a, b, c;
+cout<<"5";
+cin>> a >> b >>c;
+
+if (c<a && c>b || c>a && c<b) cout << "tak";
+else cout << "nie";
+
+*/
+
+
+
+/*
+int waga, limit ;
+cout<<"4";
+limit=20;
+cin >> waga ;
+if (waga<=limit) cout << "tak";
+else cout << "nie";
+*/
+
+
+
+
+
+/*
+int wiek;
+cout<<"3";
+cin>> wiek;
+if(wiek>=18) cout <<" pe³noletni";
+else cout << "niepe³noletni";
+*/
+
+
+
+
+
+/*int a;
+cout<<"2";
+cin >> a;
+if (a>=100 && a<=999 && a%17==0) cout << " jest 3 cyfrowa i podzielna przez 17";
+else  cout << "z³a";
+*/
+
+
+
+
+/*int a;
+cout<<"1";
+    cin >> a;
+    if (a%3==0) cout << "jest podzielna przez 3";
+    else cout << "niepodzielna";
+*/
+
+    return 0;
+
+
+}
