@@ -1,0 +1,73 @@
+#include <iostream>
+#include <cmath>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+
+
+
+
+    /*
+int p, k ,s;
+cin >> p>>k>>s;
+if(3*s>=p+k) cout<<"przeskoczy";
+else cout <<"NIE";
+*/
+
+
+
+
+
+
+
+
+/*
+int a,b,c;
+
+cin>> a >> b>> c;
+
+if (c>a && c<b ||c<a && c>b) cout<< "TAK";
+else cout <<"NIE";
+
+*/
+
+
+
+
+
+
+
+/*int waga;
+int limit=20;
+
+cin>> waga;
+if (waga<limit) cout<< "moze przejechac";
+        else cout << "nie moze";
+
+
+*/
+
+
+
+
+ /*int wiek;
+ cin>> wiek;
+ if (wiek>17) cout<<"Pełnoletni";
+ else cout << "Małolat";
+*/
+
+ /*int a;
+ cin>> a;
+ if (a>9 && a<100 && a%17==0) cout<< "jest";
+ else cout << "nie jest";
+ */
+
+ /*int a;
+ cin>> a;
+ if(a%3==0) cout << "Yes";
+ else cout << "no";
+   return 0;
+   */
+}
