@@ -1,0 +1,145 @@
+#include <iostream>
+
+using namespace std;
+
+
+int suma(int x) /////////// ZADANIE 3
+{
+    int wynik=0;
+    do
+    {
+    wynik=wynik+x%10;
+    x=x/10;
+    }
+    while(x!=0);
+
+return wynik;
+}
+
+
+
+
+
+bool dzielnikd (int n, int d)
+     {
+         for(int i=0;i<=n;i++)  //////// ZADANIE 2
+     {
+         if (n%d==0)return true;
+     } return false ;
+
+     }
+
+
+double waga( int waga, int limit) /// o limicie ////////// ZADANIE 1 DÓŁ
+  {
+      return waga<limit;
+  }
+
+double reszta(int a , int b) ///// a&b
+ {
+     return (a%b);
+ }
+
+int iloczyn (int a, int b, int c) ///iloczybn trzech wpisanych liczb
+{
+    return (a*b*c);
+}
+
+int suma( int a , int b) ///// suma kwadratów
+{
+    return (a*a)+(b*b);
+}
+
+
+
+
+bool dzielniki (int p, int n)
+      {
+          for ( p=1; p<1000; p++)
+    {
+           if (n%p==0) return true;
+       } return false ;
+
+}
+
+
+bool liczba(int x)  /////////liczba podzielna przez 3
+{
+   for (int i=0;i<=x;i++)
+   {
+       if (x%3==0) return true;
+
+   } return false;
+}
+
+
+int main()
+{
+
+int x;
+
+    cin >> x;
+    cout << suma(x); ///////// ZADANIE 3
+
+
+
+    /*int x,z;
+    cin>>x>>z;
+    if (x%z==0) cout << "tak"; ////////// ZADANIE 2
+    else cout <<"nie";
+*/
+
+/*
+    int waga, int limit;
+    cin>>waga>> limit;
+    if(waga<limit) cout << "TAK"; ////// ZAD 1 W DÓŁ
+    else cout << "NIE";
+    */
+
+    /*
+    int a, b;
+    cin>>a>>b;
+    if (a%b==0) cout << a;
+*/
+
+
+
+
+
+
+
+    /*
+    int a, b, c;
+  cin >> a >> b>> c;
+
+cout << iloczyn (a,b,c);
+*/
+
+
+
+
+/*
+  int a, b;
+  cin >> a >> b;
+
+cout << summa (a,b);
+
+*/
+
+
+    /*
+  int p,n;  /////////cout << "\ndzielniki liczby n:\n" << endl;
+cin >> n;
+
+       for ( p=1; p<1000; p++)
+       if (n%p==0) cout <<  p<<" ";
+*/
+
+/*cout << "liczba podzielna przez 3";
+    int x;
+    cin>>x;
+    if (liczba(x)) cout << "tak";
+    else cout <<"nie";
+*/
+}
+
